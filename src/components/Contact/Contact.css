@@ -1,0 +1,20 @@
+.Contact{
+  font-size: 2vw;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contact-details {
+  animation: backInUp;
+  animation-duration: 3s;
+  color: grey;
+  list-style-type:none;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+@media (max-width: 648px) {
+  /*Mobile View */
+  .contact-details {
+    font-size: 250%;
+  }
+}
